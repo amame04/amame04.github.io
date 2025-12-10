@@ -42,7 +42,7 @@
         box-shadow: 2px 5px 2px 2px #bbbbbb;
       }
 
-      .link, .link a:visited {
+      .link a, .link a:visited {
         color: #7b7b7b;
         text-decoration: none;
         border: none;
@@ -63,8 +63,8 @@
 
       const createTitle = (tag) => {
         let titleHTML = `<section id="${tag}">`;
-        for (camera in photos) {
-          cameraTag = camera.replace(' ', '');
+        for (let camera in photos) {
+          let cameraTag = camera.replace(' ', '');
           if (cameraTag === tag) {
             titleHTML += `<div><h1>${camera}</h1></div>`;
           } else {
@@ -76,8 +76,8 @@
       }
       
       let photosHTML = '';
-      for (camera in photos) {
-        cameraTag = camera.replace(' ', '');
+      for (let camera in photos) {
+        let cameraTag = camera.replace(' ', '');
         photosHTML += createTitle(cameraTag);
         photos[camera].forEach((photo) => {
           photosHTML += `<section><img src="images/${cameraTag}/${photo}"></section>`;
