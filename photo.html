@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <!-- Meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+    <title>amame04</title>
+    <style> 
+      * {
+        box-sizing: border-box;
+      }
+
+      html, body {
+        margin: 0;
+        padding: 0;
+        scroll-snap-type: y mandatory;
+        background-color: #ffffff;
+        scroll-behavior: smooth;
+      }
+
+      section {
+        width: 100%;
+        height: 100vh;
+        scroll-snap-align: center;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+
+      img {
+        margin: 2%;
+        min-width: 0;
+        min-height: 0;
+        max-width: 96%;
+        max-height: 96%;
+        object-fit: contain;
+        border: thick solid #ebebeb;
+        box-shadow: 2px 5px 2px 2px #bbbbbb;
+      }
+
+      .link, .link a:visited {
+        color: #7b7b7b;
+        text-decoration: none;
+        border: none;
+      }
+    </style>
+  </head>
+  <body>
+
+    <script>
+      const photos = {
+        'Horizon Perfekt': [
+          '000031.JPG', '000033.JPG', '000027.JPG', '000048.JPG', '200003.JPG', '200011.JPG', '200027.JPG', '200033.JPG', '200043.JPG'
+        ],
+        'GX7 mk2': [
+          'P1010572.jpg', 'P1010707.jpg', 'P1010741.jpg', 'P1010847-2.jpg', 'P1020007.jpg', 'P1020026.jpg', 'P1020044.jpg', 'P1020133.jpg'
+        ]
+      };
+
+      const createTitle = (tag) => {
+        let titleHTML = `<section id="${tag}">`;
+        for (camera in photos) {
+          cameraTag = camera.replace(' ', '');
+          if (cameraTag === tag) {
+            titleHTML += `<div><h1>${camera}</h1></div>`;
+          } else {
+            titleHTML += `<div class="link"><a href="#${cameraTag}">${camera}</a></div>`;
+          }
+        }
+        titleHTML += '</section>';
+        return titleHTML;
+      }
+      
+      let photosHTML = '';
+      for (camera in photos) {
+        cameraTag = camera.replace(' ', '');
+        photosHTML += createTitle(cameraTag);
+        photos[camera].forEach((photo) => {
+          photosHTML += `<section><img src="images/${cameraTag}/${photo}"></section>`;
+        })
+      }
+
+      document.body.insertAdjacentHTML('beforeend', photosHTML);
+    </script>
+  </body>
+</html>
