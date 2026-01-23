@@ -84,7 +84,7 @@
         let cameraTag = camera.replace(' ', '');
         photosHTML += createTitle(cameraTag);
         photos[camera].forEach((photo) => {
-          photosHTML += `<section><img src="images/${cameraTag}/${photo}" onclick="location.href=this.src"></section>`;
+          photosHTML += `<section><img loading="lazy" src="images/${cameraTag}/${photo}" onclick="location.href=this.src"></section>`;
         })
       }
 
