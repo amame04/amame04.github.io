@@ -2,51 +2,51 @@ const photos = {
   "Horizon Perfekt": [
     {
       "filename": "000031.JPG",
-      "summary": "2025/11 - FUJIFILM 400 - Enoshima Kanagawa"
+      "summary": "2025/11 - FUJIFILM 400 - Enoshima"
     },
     {
       "filename": "000033.JPG",
-      "summary": "2025/11 - FUJIFILM 400 - Enoshima Kanagawa"
+      "summary": "2025/11 - FUJIFILM 400 - Enoshima"
     },
     {
       "filename": "000027.JPG",
-      "summary": "2025/11 - FUJIFILM 400 - Akihabara Tokyo"
+      "summary": "2025/11 - FUJIFILM 400 - Akihabara"
     },
     {
       "filename": "000048.JPG",
-      "summary": "2025/11 - FUJIFILM 400 - Sengawa Tokyo"
+      "summary": "2025/11 - FUJIFILM 400 - Sengawa"
     },
     {
       "filename": "200003.JPG",
-      "summary": "2025/12 - FUJIFILM 400 - Kichijoji Tokyo"
+      "summary": "2025/12 - FUJIFILM 400 - Kichijoji"
     },
     {
       "filename": "200011.JPG",
-      "summary": "2025/12 - FUJIFILM 400 - Kichijoji Tokyo"
+      "summary": "2025/12 - FUJIFILM 400 - Kichijoji"
     },
     {
       "filename": "200027.JPG",
-      "summary": "2025/12 - FUJIFILM 400 - Chofu Tokyo"
+      "summary": "2025/12 - FUJIFILM 400 - Chofu"
     },
     {
       "filename": "200033.JPG",
-      "summary": "2025/12 - FUJIFILM 400 - Chofu Tokyo"
+      "summary": "2025/12 - FUJIFILM 400 - Chofu"
     },
     {
       "filename": "200043.JPG",
-      "summary": "2025/12 - FUJIFILM 400 - Chofu Tokyo"
+      "summary": "2025/12 - FUJIFILM 400 - Chofu"
     },
     {
       "filename": "300007.JPG",
-      "summary": "2026/01 - FUJIFILM 400 - Akiruno Tokyo"
+      "summary": "2026/01 - FUJIFILM 400 - Akiruno"
     },
     {
       "filename": "300013.JPG",
-      "summary": "2026/01 - FUJIFILM 400 - Akiruno Tokyo"
+      "summary": "2026/01 - FUJIFILM 400 - Akiruno"
     },
     {
       "filename": "300023.JPG",
-      "summary": "2026/01 - FUJIFILM 400 - Akiruno Tokyo"
+      "summary": "2026/01 - FUJIFILM 400 - Akiruno"
     }
   ],
   "GR IV": [
@@ -90,19 +90,19 @@ const photos = {
   "Konica C35": [
     {
       "filename": "000009.JPG",
-      "summary": "2025/12 - Kodak Gold 200 - Kichijoji Tokyo"
+      "summary": "2025/12 - Kodak Gold 200 - Kichijoji"
     },
     {
       "filename": "000017.JPG",
-      "summary": "2025/12 - Kodak Gold 200 - Kichijoji Tokyo"
+      "summary": "2025/12 - Kodak Gold 200 - Kichijoji"
     },
     {
       "filename": "000018.JPG",
-      "summary": "2025/12 - Kodak Gold 200 - Kichijoji Tokyo"
+      "summary": "2025/12 - Kodak Gold 200 - Kichijoji"
     },
     {
       "filename": "000020.JPG",
-      "summary": "2025/12 - Kodak Gold 200 - Amanohashidate Kyoto"
+      "summary": "2025/12 - Kodak Gold 200 - Amanohashidate"
     },
     {
       "filename": "000024.JPG",
@@ -120,35 +120,35 @@ const photos = {
   "GX7 mk2": [
     {
       "filename": "P1010572.jpg",
-      "summary": "2020/10 - Okutama Tokyo"
+      "summary": "2020/10 - Okutama"
     },
     {
       "filename": "P1010707.jpg",
-      "summary": "2020/10 - Okutama Tokyo"
+      "summary": "2020/10 - Okutama"
     },
     {
       "filename": "P1010741.jpg",
-      "summary": "2020/10 - Okutama Tokyo"
+      "summary": "2020/10 - Okutama"
     },
     {
       "filename": "P1010847-2.jpg",
-      "summary": "2020/11 - Akiruno Tokyo"
+      "summary": "2020/11 - Akiruno"
     },
     {
       "filename": "P1020007.jpg",
-      "summary": "2020/11 - Akasaka Tokyo"
+      "summary": "2020/11 - Akasaka"
     },
     {
       "filename": "P1020026.jpg",
-      "summary": "2020/11 - Akasaka Tokyo"
+      "summary": "2020/11 - Akasaka"
     },
     {
       "filename": "P1020044.jpg",
-      "summary": "2020/11 - Akiruno Tokyo"
+      "summary": "2020/11 - Akiruno"
     },
     {
       "filename": "P1020133.jpg",
-      "summary": "2021/02 - Akiruno Tokyo"
+      "summary": "2021/02 - Akiruno"
     }
   ]
 }
