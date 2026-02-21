@@ -37,6 +37,10 @@ const photos = {
       "summary": "2025/12 - FUJIFILM 400 - Chofu"
     },
     {
+      "filename": "300005.JPG",
+      "summary": "2026/01 - FUJIFILM 400 - Akiruno"
+    },
+    {
       "filename": "300007.JPG",
       "summary": "2026/01 - FUJIFILM 400 - Akiruno"
     },
