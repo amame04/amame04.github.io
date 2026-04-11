@@ -9,7 +9,11 @@ find "$SRC" -type f \( -iname "*.jpg" -o -iname "*.jpeg" \) | while read -r f; d
 
   thumb_out="$DST_THUMB/$out"
 
-  mkdir -p "$(dirname "$thumb_out")"
+  if  [ ! -f "$thumb_out" ] || [ "$f" -nt "$thumb_out" ]; then
+    echo "convert: $f"
 
-  convert "$f" -auto-orient -resize 2000x2000\> -quality 80 "$thumb_out"
+    mkdir -p "$(dirname "$thumb_out")"
+
+    convert "$f" -auto-orient -resize 2000x2000\> -quality 80 "$thumb_out"
+  fi
 done
