@@ -51,6 +51,10 @@ const photos = {
     {
       "filename": "300023.JPG",
       "summary": "2026/01 - FUJIFILM 400 - Akiruno"
+    },
+    {
+      "filename": "400029.JPG",
+      "summary": "2026/04 - FUJIFILM 400 - Okinawa"
     }
   ],
   "GR IV": [
@@ -89,6 +93,10 @@ const photos = {
     {
       "filename": "R0000498.JPG",
       "summary": "2025/12 - Shimonoseki"
+    },
+    {
+      "filename": "R0000631_1.JPG",
+      "summary": "2026/04 - Okinawa"
     }
   ],
   "Konica C35": [
