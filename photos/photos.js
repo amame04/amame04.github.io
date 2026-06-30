@@ -63,10 +63,6 @@ const photos = {
       "summary": "2025/12 - Kyoto"
     },
     {
-      "filename": "R0000168.JPG",
-      "summary": "2025/12 - Kyoto"
-    },
-    {
       "filename": "R0000264.JPG",
       "summary": "2025/12 - Tottori"
     },
